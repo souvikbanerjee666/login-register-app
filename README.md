@@ -30,37 +30,6 @@ A complete authentication system built with React, Node.js, Express, MongoDB, an
 - **bcrypt** - Password hashing
 - **CORS** - Cross-origin requests
 
-## Project Structure
-
-```
-chai-react-practice/
-├── backend/
-│   ├── config/
-│   │   └── dbConnect.js
-│   ├── controllers/
-│   │   ├── authController.js
-│   │   └── uploadController.js
-│   ├── models/
-│   │   └── User.js
-│   ├── routes/
-│   │   ├── authRoutes.js
-│   │   └── uploadRoutes.js
-│   ├── public/uploads/
-│   ├── .env
-│   └── server.js
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── UserRegister.jsx
-│   │   │   ├── UserLogin.jsx
-│   │   │   ├── ProfileSetup.jsx
-│   │   │   └── Dashboard.jsx
-│   │   ├── Router1.jsx
-│   │   └── main.jsx
-│   └── package.json
-└── README.md
-```
-
 ## Setup Instructions
 
 ### Prerequisites
